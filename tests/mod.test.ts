@@ -1,4 +1,4 @@
-import { assert, assertEquals, assertExists } from "jsr:@std/assert";
+import { assertEquals, assertExists } from "jsr:@std/assert";
 import { parseConfig } from "../mod.ts";
 
 Deno.test({
