@@ -4,8 +4,5 @@
   "exports": {
     ".": "./mod.ts"
   },
-  "tasks": {
-    "build": "deno run -A scripts/genConfig.js"
-  },
   "exclude": ["schema/**", "scripts/**"]
 }
