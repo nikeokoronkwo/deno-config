@@ -35,7 +35,13 @@ export interface DenoConfigurationFileSchema {
     /**
      * Specify what JSX code is generated.
      */
-    jsx?: "preserve" | "react" | "react-jsx" | "react-jsxdev" | "react-native" | "precompile";
+    jsx?:
+      | "preserve"
+      | "react"
+      | "react-jsx"
+      | "react-jsxdev"
+      | "react-native"
+      | "precompile";
     /**
      * Specify the JSX factory function used when targeting React JSX emit, e.g. 'React.createElement' or 'h'
      */
@@ -390,11 +396,11 @@ export interface DenoConfigurationFileSchema {
   exports?:
     | string
     | {
-        /**
-         * This interface was referenced by `undefined`'s JSON-Schema definition
-         * via the `patternProperty` "^\.(/.*)?$".
-         */
-        [k: string]: string;
-      };
+      /**
+       * This interface was referenced by `undefined`'s JSON-Schema definition
+       * via the `patternProperty` "^\.(/.*)?$".
+       */
+      [k: string]: string;
+    };
   [k: string]: unknown;
 }

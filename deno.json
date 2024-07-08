@@ -1,7 +1,7 @@
 {
   "name": "@dyte/deno-config",
   "version": "0.1.0",
-  "exports":{
+  "exports": {
     ".": "./mod.ts"
   },
   "tasks": {
